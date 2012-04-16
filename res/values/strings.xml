@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+	<!-- General -->
+    <string name="app_name">Unit2Example</string>
+	<!-- ******* -->
+
+	<!-- MainActivity -->
+    <string name="button_second_activity">Activitat 2.3 i 2.3 bis</string>
+    <string name="button_third_activity">Activitat 2.4</string>
+    <string name="button_first_fragment_activity">Activitat 2.5</string>
+    <string name="button_second_fragment_activity">Activitat 2.5 bis bis</string>
+    <string name="menuitem_second_activity">Segona Activitat</string>
+    <string name="submenu_title">Submenú</string>
+    <string name="submenu_item1">Item 1</string>
+    <string name="submenu_item2">Item 2</string>
+    <string name="submenu_item3">Item 3</string>
+    <string name="submenu_item4">Item 4</string>
+    <!-- ************ -->
+    
+    <!-- SecondActivity -->
+    <string name="hello">Hola segona activitat!</string>
+    <!-- ************** -->
+    
+    <!-- ThirdActivity -->
+    <string name="textview_third_activity_name">Nom: </string>
+    <string name="textview_third_activity_developer">Desenvolupador: </string>
+    <string name="textview_third_activity_date">Data: </string>
+    <string name="textview_third_activity_url">URL: </string>
+	<!-- ************* -->
+
+</resources>

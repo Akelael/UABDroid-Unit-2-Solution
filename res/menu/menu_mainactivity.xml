@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+	<item android:id="@+id/item_second_activity"
+		android:title="@string/menuitem_second_activity"
+	/>
+		
+	<item android:id="@+id/submenu"
+		android:title="@string/submenu_title">
+		<menu>
+			<item 
+				android:title="@string/submenu_item1"
+			/>
+			
+			<item 
+				android:title="@string/submenu_item2"
+			/>
+			
+			<item 
+				android:title="@string/submenu_item3"
+			/>
+			
+			<item 
+				android:title="@string/submenu_item4"
+			/>
+		</menu>
+	</item>
+</menu>
