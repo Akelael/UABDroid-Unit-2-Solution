@@ -39,21 +39,48 @@ public class MainActivity extends Activity
         setContentView(R.layout.main);
         
         // Obtain a reference to the button in order to set a ClickListener 
-        Button buttonSecondActivity = (Button) findViewById(R.id.button_second_activity);
+        Button button = (Button) findViewById(R.id.button_second_activity);
         
         // Set an OnClickListener to capture the Click Event 
-        buttonSecondActivity.setOnClickListener(new OnClickListener()
+        button.setOnClickListener(new OnClickListener()
         {
         	// When the button is pressed, launch the SecondActivity
 			@Override
 			public void onClick(View v) 
 			{
 				// Activitat 2.3 i 2.3 bis
-				//startActivity(new Intent(getBaseContext(), SecondActivity.class));
+				startActivity(new Intent(getBaseContext(), SecondActivity.class));
+			}
+        });
+        
+        button = (Button) findViewById(R.id.button_third_activity);
+        button.setOnClickListener(new OnClickListener()
+        {
+			@Override
+			public void onClick(View v) 
+			{
 				// Activitat 2.4
-				//startActivity(new Intent(getBaseContext(), ThirdActivity.class));
+				startActivity(new Intent(getBaseContext(), ThirdActivity.class));
+			}
+        });
+        
+        button = (Button) findViewById(R.id.button_first_fragment_activity);
+        button.setOnClickListener(new OnClickListener()
+        {
+			@Override
+			public void onClick(View v) 
+			{
 				// Activitat 2.5
-				//startActivity(new Intent(getBaseContext(), FirstFragmentActivity.class));
+				startActivity(new Intent(getBaseContext(), FirstFragmentActivity.class));
+			}
+        });
+        
+        button = (Button) findViewById(R.id.button_second_fragment_activity);
+        button.setOnClickListener(new OnClickListener()
+        {
+			@Override
+			public void onClick(View v) 
+			{
 				// Activitat 2.5 bis bis
 				startActivity(new Intent(getBaseContext(), SecondFragmentActivity.class));
 			}
@@ -83,7 +110,7 @@ public class MainActivity extends Activity
 		return true;
 	}
 
-	// With this method we can know wich item from the options menus has been selected
+	// With this method we can know which item from the options menus has been selected
 	@Override
 	public boolean onOptionsItemSelected(MenuItem _item) 
 	{
